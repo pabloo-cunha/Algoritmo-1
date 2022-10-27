@@ -11,17 +11,18 @@ count2 = 0
 while a < b:
     a = a * taxaCrescimentoA
     b = b * taxaCrescimentoB
-    c = c * taxaCrescimentoC
+
     count += 1
-    count2 += 1 
+    
 
-while a < c:
-    a = a * taxaCrescimentoA
-    c = c * taxaCrescimentoC
-    count2 += 1
-    if a > c*1.023:
-        break
+a = 15000
 
-print(f'A população de A ultrapasssará a população de B em {count} anos.')
-print(f'A população de A ultrapassará a população de B em {count2} anos.')
+while a < c*1.23:
+        a *= taxaCrescimentoA
+        c *= taxaCrescimentoC  
+              
+        count2 += 1
         
+print(f'A população de A ultrapasssará a população de B em {count} anos.')
+print(f'A população de A ultrapassará a população de C em {count2} anos.')
+
