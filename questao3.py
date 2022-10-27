@@ -23,6 +23,5 @@ while a < c:
         break
 
 print(f'A população de A ultrapasssará a população de B em {count} anos.')
-
 print(f'A população de A ultrapassará a população de B em {count2} anos.')
         
