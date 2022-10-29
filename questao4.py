@@ -53,7 +53,7 @@ else:
     print("Não houve sequência númerica")
 
 if maior2 and maior_sequencia2 != 0:
-    print(f"Maior sequencia consecutiva de números constantes: {maior_sequencia2}. O maior valor constante:  {maior2}")
+    print(f"Maior sequencia consecutiva de números constantes: {maior_sequencia2}. O maior valor constante é:  {maior2}")
 
 else:
     print("Não houve sequência númerica")
