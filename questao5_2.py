@@ -1,3 +1,5 @@
+# Utilizando um número diferente para cada equação 
+
 num1 = int(input('Insira um numero a partir do 50 para H: '))
 num2 = int(input('Insira um numero a partir do 50 para S: '))
 num3 = int(input('Insira um numero a partir do 50 para P: '))
