@@ -16,7 +16,7 @@ maior_sequencia2 = 0
       
 
 for n in range(0, 150):
-    entrada = randint(0, 10)
+    entrada = randint(0, 150)
 
     if ultimo_num and ultimo_num == entrada - 1:            
         soma1 += entrada
