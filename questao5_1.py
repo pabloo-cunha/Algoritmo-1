@@ -1,4 +1,6 @@
-num = int(input('Insira um numero a partir do 50: '))
+# Utilizando o mesmo número inserido para as três equações
+
+num = int(input('Insira um número a partir de 50: '))
 
 h = ((1*2-1)/1)+((2*2-1)/2)
 s = (1/(1*1))-(2/(2*2))
@@ -46,4 +48,4 @@ if num >= 50:
     print (f'O resultado de P é {p:.3f}')
     
 else:
-    print('numero inserido é invalido!')
+    print('Número inserido é invalido!')
