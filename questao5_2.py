@@ -1,8 +1,8 @@
 # Utilizando um número diferente para cada equação 
 
-num1 = int(input('Insira um numero a partir do 50 para H: '))
-num2 = int(input('Insira um numero a partir do 50 para S: '))
-num3 = int(input('Insira um numero a partir do 50 para P: '))
+num1 = int(input('Insira um numero a partir de 50 para H: '))
+num2 = int(input('Insira um numero a partir de 50 para S: '))
+num3 = int(input('Insira um numero a partir de 50 para P: '))
 
 h_1 = ((1*2-1)/1)+((2*2-1)/2)
 s_2 = (1/(1*1))-(2/(2*2))
@@ -27,7 +27,7 @@ if num1 >= 50:
     print(f'O resultado de H é {h_1:.3f}')
     
 else:
-    print(f'Numero 1 invalido')
+    print(f'Número 1 inválido')
     
 if num2 >= 50:
     for x in range(2, num2+1):
@@ -41,7 +41,7 @@ if num2 >= 50:
             
     print(f'O resultado de S é {s_2:.3f}')
 else:
-    print(f'Numero 2 invalido')
+    print(f'Número 2 inválido')
 
 if num3 >= 50:
     for i in range(2, num3+1):
@@ -60,4 +60,4 @@ if num3 >= 50:
     print(f'O resultado de P é {p_3:.3f}')
 
 else:
-    print(f'numero invalido inserido')
+    print(f'Número inválido inserido')
